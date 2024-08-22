@@ -1,0 +1,8 @@
+import generatePassword from 'generate-password';
+
+const password = generatePassword.generate({
+  length: 10,
+  numbers: true
+});
+
+console.log(password);
